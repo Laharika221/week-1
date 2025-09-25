@@ -37,9 +37,9 @@ By the end of today, i understand how to describe, simulate, and synthesize simp
 *iverilog* is an open-source Verilog simulator.  
 
 *Basic flow:*
-1. Provide *design* and *testbench* files as inputs.  
-2. Simulator runs and generates a .vcd file.  
-3. Open .vcd in *GTKWave* to see waveforms.  
+- 1. Provide *design* and *testbench* files as inputs.  
+- 2. Simulator runs and generates a .vcd file.  
+- 3. Open .vcd in *GTKWave* to see waveforms.  
 
 ---
 
@@ -66,13 +66,13 @@ gtkwave test_mux2_1
 ### Verilog code walkthrough
 mux2_1.v
 module mux2_1(
-    input a,
-    input b,
-    input sel,
-    output y
-);
-    assign y = sel ? b : a;  // if sel=1 choose b, else choose a
-endmodule
+    - input a,
+    - input b,
+    - input sel,
+    - output y
+- );
+    - assign y = sel ? b : a;  // if sel=1 choose b, else choose a
+- endmodule
 Explanation:
 
 Inputs: i0, i1 → data lines; sel → select signal
