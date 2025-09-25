@@ -5,7 +5,7 @@ Day 2 focuses on building fundamental *RTL design skills* using Verilog.
 I explored:  
 - Writing simple Verilog modules  
 - Testbench creation and simulation  
-- Understanding simulation outputs (waveforms)  
+- Understanding simulation outputs (waveforms).
 
 This day builds on Day 1 basics and prepares us for more complex designs in upcoming sessions.  
 
