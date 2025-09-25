@@ -88,12 +88,12 @@ Logic: If sel=1, output y=i1; else y=i0.
 Yosys converts Verilog to a gate-level netlist.
 
 Features:
-Synthesis, optimization, mapping, and visualization
-Gate libraries contain multiple flavors to optimize:
-Performance
-Power
-Area
-Drive strength
+- Synthesis, optimization, mapping, and visualization
+- Gate libraries contain multiple flavors to optimize:
+- Performance
+- Power
+- Area
+- Drive strength
 ---
 
 ### 6.Lab: Synthesis with Yosys
@@ -133,7 +133,7 @@ endmodule
 ---
 
 3️   test_mux2_1.v content (example testbench)
-
+```verilog
 module test_mux2_1;
   reg i0, i1, sel;
   wire y;
@@ -153,6 +153,6 @@ module test_mux2_1;
     $finish;
   end
 endmodule
-
+```
 
 ---
