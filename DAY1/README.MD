@@ -138,11 +138,11 @@ module test_mux2_1;
   reg i0, i1, sel;
   wire y;
 
-  good_mux uut (.i0(i0), .i1(i1), .sel(sel), .y(y));
+  mux2_1 uut (.i0(i0), .i1(i1), .sel(sel), .y(y));
 
   initial begin
-    $dumpfile("tb_good_mux.vcd");
-    $dumpvars(0, tb_good_mux);
+    $dumpfile("test_mux2_1.vcd");
+    $dumpvars(0, test_mux2_1);
 
     // Test cases
     i0 = 0; i1 = 0; sel = 0; #10;
