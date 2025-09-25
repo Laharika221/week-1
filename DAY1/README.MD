@@ -99,10 +99,10 @@ Drive strength
 ### 6.Lab: Synthesis with Yosys
 
 yosys
--read_liberty -lib /path/to/sky130_fd_sc_hd__tt_025C_1v80.lib
--read_verilog mux2_1.v
--synth -top mux2_1
--abc -liberty /path/to/sky130_fd_sc_hd__tt_025C_1v80.lib
+- read_liberty -lib /path/to/sky130_fd_sc_hd__tt_025C_1v80.lib
+- read_verilog mux2_1.v
+- synth -top mux2_1
+- abc -liberty /path/to/sky130_fd_sc_hd__tt_025C_1v80.lib
 show
 
 
@@ -110,10 +110,10 @@ show
 
 7. Summary
 
--✅ Learned simulators, designs, and testbenches
--✅ Simulated a 2:1 multiplexer
--✅ Analyzed Verilog code
--✅ Explored Yosys synthesis and libraries
+- ✅ Learned simulators, designs, and testbenches
+- ✅ Simulated a 2:1 multiplexer
+- ✅ Analyzed Verilog code
+- ✅ Explored Yosys synthesis and libraries
 
 ---
 
