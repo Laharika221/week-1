@@ -65,15 +65,15 @@ gtkwave test_mux2_1
 
 ### Verilog code walkthrough
 mux2_1.v
-module mux2_1(
-    - input a,
-    - input b,
-    - input sel,
-    - output y
-- );
-    - assign y = sel ? b : a;  // if sel=1 choose b, else choose a
-- endmodule
-Explanation:
+```verilog
+module mux2_1(input a,input b,
+    input sel,
+    output y
+);
+    assign y = sel ? b : a;  // if sel=1 choose b, else choose a
+endmodule
+```
+### Explanation:
 
 Inputs: i0, i1 → data lines; sel → select signal
 
