@@ -49,16 +49,19 @@ By the end of today, i understand how to describe, simulate, and synthesize simp
 ```bash
 git clone https://github.com/kunalg123/sky130RTLDesignAndSynthesisWorkshop.git
 cd sky130RTLDesignAndSynthesisWorkshop/verilog_files
-  
+```
+
 ###Step 2: Install tools
 ```bash
   sudo apt install iverilog
   sudo apt install gtkwave
+```
 
 ###Step 3: Run Simulation
 ```bash
 iverilog mux2_1 test_mux2_1
 gtkwave test_mux2_1
+```
 
 ### Verilog code walkthrough
 mux2_1.v
@@ -125,11 +128,11 @@ module mux2_1 (input i0, input i1, input sel, output reg y);
       y <= i0;
   end
 endmodule
-
+```
 
 ---
 
-3️   tes_mux2_1.v content (example testbench)
+3️   test_mux2_1.v content (example testbench)
 
 module test_mux2_1;
   reg i0, i1, sel;
