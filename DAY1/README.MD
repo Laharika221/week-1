@@ -32,7 +32,7 @@ By the end of today, i understand how to describe, simulate, and synthesize simp
 
 ---
 
-## 2. Getting Started with iverilog
+## 2.Getting Started with iverilog
 
 *iverilog* is an open-source Verilog simulator.  
 
@@ -43,7 +43,7 @@ By the end of today, i understand how to describe, simulate, and synthesize simp
 
 ---
 
-## 3. Lab: Simulating a 2-to-1 Multiplexer
+## 3.Lab: Simulating a 2-to-1 Multiplexer
 
 ### Step 1: Clone the workshop repo
 ```bash
@@ -51,13 +51,13 @@ git clone https://github.com/kunalg123/sky130RTLDesignAndSynthesisWorkshop.git
 cd sky130RTLDesignAndSynthesisWorkshop/verilog_files
 ```
 
-###Step 2: Install tools
+### Step 2: Install tools
 ```bash
   sudo apt install iverilog
   sudo apt install gtkwave
 ```
 
-###Step 3: Run Simulation
+### Step 3: Run Simulation
 ```bash
 iverilog mux2_1 test_mux2_1
 gtkwave test_mux2_1
