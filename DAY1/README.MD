@@ -117,7 +117,7 @@ show
 
 ---
 
-### 2️⃣ mux_2_1v content
+### 2️⃣ mux_2_1.v content
 
 ```verilog
 module mux2_1 (input i0, input i1, input sel, output reg y);
