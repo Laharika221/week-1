@@ -132,7 +132,7 @@ endmodule
 
 ---
 
-3️   test_mux2_1.v content (example testbench)
+3️   Test_mux2_1.v content
 ```verilog
 module test_mux2_1;
   reg i0, i1, sel;
