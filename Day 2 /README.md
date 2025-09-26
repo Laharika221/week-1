@@ -59,14 +59,14 @@ module and_gate_tb;
 endmodule
 ```
 ### Simulation Steps
-Copy code
-Bash
-iverilog -o and_gate_tb.vvp and_gate.v and_gate_tb.v
-vvp and_gate_tb.vvp
-gtkwave and_gate.vcd
-Expected Waveform
-Output y is 1 only when both a and b are 1.
-✍ Example 2 – D Flip-Flop with Asynchronous Reset
+- Copy code
+- Bash
+- iverilog -o and_gate_tb.vvp and_gate.v and_gate_tb.v
+- vvp and_gate_tb.vvp
+- gtkwave and_gate.vcd
+- Expected Waveform
+- Output y is 1 only when both a and b are 1.
+### ✍ Example 2 – D Flip-Flop with Asynchronous Reset
 Verilog Code (d_ff_async.v)
 ```
 module d_ff_async (
