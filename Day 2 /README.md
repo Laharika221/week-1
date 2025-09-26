@@ -107,13 +107,6 @@ module d_ff_async_tb;
   end
 endmodule
 ```
-### Simulation Steps
-iverilog -o d_ff_async_tb.vvp d_ff_async.v d_ff_async_tb.v
-vvp d_ff_async_tb.vvp
-gtkwave d_ff_async.vcd
-Expected Waveform
-When reset = 1, output q = 0 immediately (async reset).
-On posedge clk, q follows input d.
 ✅ Learning Outcomes
 - Understood basic combinational & sequential RTL design.
 - Gained hands-on practice with simulation flow.
