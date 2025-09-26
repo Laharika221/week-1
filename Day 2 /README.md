@@ -26,12 +26,6 @@ This day builds on Day 1 basics and prepares us for more complex designs in upco
 
 ---
 
-## 📂 Repository Structure (Day 2)
-Day_2/ │── README.md   ← Documentation (this file) │── codes/      ← Verilog source files │   ├── and_gate.v │   ├── d_ff_async.v │── tb/         ← Testbenches │   ├── and_gate_tb.v │   ├── d_ff_async_tb.v │── waves/      ← Saved waveform dump files (.vcd)
-Copy code
-
----
-
 ## ✍ Example 1 – AND Gate  
 
 ### Verilog Code (and_gate.v)  
