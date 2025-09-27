@@ -32,7 +32,7 @@ We also run simulations and observe how different coding styles affect results.
 ## Design Files
 
 ### register.v
-```verilog
+verilog
 // register.v
 // Simple D register with synchronous reset
 ```
