@@ -55,8 +55,8 @@ endmodule
 counter_tb.v
 
 // counter_tb.v
-`timescale 1ns/1ps
 ```
+`timescale 1ns/1ps
 module counter_tb;
     reg clk, reset, en;
     wire [3:0] count;
