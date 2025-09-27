@@ -87,6 +87,7 @@ endmodule
 Makefile
 
 # Makefile
+```
 SIM = iverilog
 SIMARGS = -g2012
 
@@ -105,10 +106,11 @@ clean:
 .PHONY: all sim wave clean
 ```
 
----
+---------
 
 
 From the Day_3 directory:
+
 Run simulation:
 ```
 make sim
