@@ -34,7 +34,6 @@ brew install icarus-verilog gtkwave
 Files
 
 mux2.v
-```
 // mux2.v
 // 2-to-1 multiplexer
 ```
@@ -84,7 +83,6 @@ module mux2_tb;
         $finish;
     end
 endmodule
-```
 ```
 Makefile
 
